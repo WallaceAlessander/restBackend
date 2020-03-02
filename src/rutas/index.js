@@ -3,7 +3,6 @@ const router = Router();
 const User = require('../modulos/users');
 const jwt = require('jsonwebtoken');
 
-
 router.get('/', (req, res) => {
     res.send('hello')
 });
